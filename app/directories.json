@@ -1,41 +1,28 @@
 {
-	"directories" : [
-		{
-			"name":"app"
-		},
-		{
-			"name":"image"
-		},
-		{
-			"name":"js",
-			"children" : [
-				{
-					"name":"controllers"
-				},
-				{
-					"name":"directives"
-				},
-				{
-					"name":"fiters"
-				},
-				{
-					"name":"services"
-				}
-			]
-		},
-		{
-			"name":"partials"
-		},
-		{
-			"name":"vendors",
-			"children" : [
-				{
-					"name":"angularjs"
-				},
-				{
-					"name":"bootstrap"
-				}
-			]
-		}
-	]
+    "directories": [{
+        "name": "app"
+    }, {
+        "name": "image"
+    }, {
+        "name": "js",
+        "children": [{
+            "name": "controllers"
+        }, {
+            "name": "directives"
+        }, {
+            "name": "fiters"
+        }, {
+            "name": "services"
+        }]
+    }, {
+        "name": "partials"
+    }, {
+        "name": "vendors",
+        "children": [{
+            "name": "angularjs",
+            "file": "https://code.angularjs.org/1.2.9/angular.js"
+        }, {
+            "name": "bootstrap"
+        }]
+    }]
 }
